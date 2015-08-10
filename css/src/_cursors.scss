@@ -1,0 +1,16 @@
+.drawingApp__cursorContainer {
+    pointer-events: none;
+    position: relative;
+}
+
+.cursorContainer__cursor {
+    background: url('/img/cursor.png') no-repeat -4px 0;
+
+    display: block;
+    width: 15px;
+    height: 22px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
